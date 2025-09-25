@@ -1,5 +1,5 @@
 import express from "express";
-import cors from "cors";
+import cors from "cors";aaa
 import path from "path";
 import { config } from "./config.js";
 import { db } from "./db/index.js";
