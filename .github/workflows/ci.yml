@@ -36,6 +36,6 @@ jobs:
       - name: Tests
         run: npm run format:check
 
-      - name: Lint
-        run: npm run lint
+      - name: Check linting
+        run: npm run lint -- --max-warnings=0
 
